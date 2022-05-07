@@ -7,6 +7,8 @@ from .models import Permiso
 from .models import Punto_control
 from .models import Punto_control_permiso
 from .models import Punto_control_Dispositivos
+from .models import Alerta
+
 
 # Register your models here.
 admin.site.register(Visitante)
@@ -17,3 +19,4 @@ admin.site.register(Permiso)
 admin.site.register(Punto_control)
 admin.site.register(Punto_control_permiso)
 admin.site.register(Punto_control_Dispositivos)
+admin.site.register(Alerta)
